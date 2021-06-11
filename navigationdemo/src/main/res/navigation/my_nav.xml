@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/fragmentA">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:name="com.jiannlee22.navigationdemo.fragment.FragmentA"
+        android:label="FragmentA" >
+        <action
+            android:id="@+id/action_fragmentA_to_fragmentB"
+            app:destination="@id/fragmentB" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentB"
+        android:name="com.jiannlee22.navigationdemo.fragment.FragmentB"
+        android:label="FragmentB" >
+        <action
+            android:id="@+id/action_fragmentB_to_fragmentC"
+            app:destination="@id/fragmentC" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentC"
+        android:name="com.jiannlee22.navigationdemo.fragment.FragmentC"
+        android:label="FragmentC" >
+        <action
+            android:id="@+id/action_fragmentC_to_fragmentD"
+            app:destination="@id/fragmentD" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentD"
+        android:name="com.jiannlee22.navigationdemo.fragment.FragmentD"
+        android:label="FragmentD" >
+        <action
+            android:id="@+id/action_fragmentD_to_fragmentA"
+            app:destination="@id/fragmentA" />
+    </fragment>
+</navigation>
