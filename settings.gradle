@@ -1,3 +1,4 @@
 rootProject.name = "AndroidDemo"
 include ':custom_table'
 include ':navigationdemo'
+include ':recyclerviewdemo'
