@@ -2,3 +2,5 @@ rootProject.name = "AndroidDemo"
 include ':custom_table'
 include ':navigationdemo'
 include ':recyclerviewdemo'
+include ':audiotrackdemo'
+include ':autoheighteditdemo'
