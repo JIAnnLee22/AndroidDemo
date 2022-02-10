@@ -17,3 +17,5 @@ local.properties
 /*/src/androidTest/
 /*/src/test/
 /*/build/
+/build/
+/*/.gitignore
